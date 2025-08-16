@@ -5,6 +5,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+header, footer, #title {
+    background-color: #1f2937;
+    color: #fff;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -15,18 +20,52 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #f9faf8;
+}
+
+.logo__text {
+    font-size: 24px;
 }
 
 .links {
     list-style-type: none;
     display: flex;
     gap: 15px;
+    
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
+#title {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title__pic {
+    width: 300px;
+    height: auto;
+    border-radius: 200px;
+    
+}
+
+footer {
+    padding: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
