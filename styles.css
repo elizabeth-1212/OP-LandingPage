@@ -5,6 +5,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+header, #title, #info, #quote, #contact  {
+    padding: 32px 96px;
+}
+
 header, footer, #title {
     background-color: #1f2937;
     color: #fff;
@@ -15,7 +19,6 @@ header, footer, #title {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 32px 96px;
 }
 
 .logo {
@@ -46,7 +49,6 @@ a, p {
 #title {
     display: flex;
     justify-content: space-between;
-    padding: 32px 96px;
 }
 
 h1 {
@@ -73,9 +75,7 @@ button {
 
 /* Info section */
 
-#info {
-    padding: 32px 96px;
-}
+
 
 h2 {
     color: #1f2937;
@@ -115,7 +115,6 @@ h2 {
 /* Quote section */
 
 #quote {
-    padding: 32px 96px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -133,6 +132,8 @@ h2 {
     font-size: 20px;
     
 }
+
+/* Contact section */
 
 
 
