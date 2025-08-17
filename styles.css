@@ -67,25 +67,38 @@ button {
 
 .title__pic {
     width: 200px;
-    height: 200px;
+    height: auto;
     border-radius: 200px;
 }
 
 /* Info section */
 
-.info__pics {
+#info {
     padding: 32px 96px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info__pics {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .pic__wrapper {
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
+    text-align: center;
 }
 
 .pic {
@@ -98,6 +111,30 @@ button {
     color: #1f2937;
     font-size: 15px;
 }
+
+/* Quote section */
+
+#quote {
+    padding: 32px 96px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote__text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote__author {
+    font-size: 20px;
+    
+}
+
+
 
 footer {
     padding: 32px;
