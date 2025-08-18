@@ -69,6 +69,7 @@ button {
     margin-top: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+    cursor: pointer;
 }
 
 .title__btn{ 
