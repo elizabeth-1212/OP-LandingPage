@@ -144,14 +144,9 @@ button {
 
 .quote__author {
     font-size: 20px;
-    
 }
 
 /* Contact section */
-
-#contact {
-    
-}
 
 .contact__container {
     width: 100%;
@@ -161,7 +156,6 @@ button {
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .contact__title {
