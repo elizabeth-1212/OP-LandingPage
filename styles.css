@@ -120,6 +120,7 @@ button {
     width: 200px;
     height: auto;
     border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 4px 16px;
 }
 
 .info__text{
