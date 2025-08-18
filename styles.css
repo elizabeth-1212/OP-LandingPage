@@ -75,6 +75,12 @@ button {
     border: none;
 }
 
+.title__btn:hover {
+    background-color: #f9faf8;
+    color: #1f2937;
+    transition: all 300ms ease;
+}
+
 .title__pic {
     width: 200px;
     height: auto;
@@ -166,9 +172,13 @@ button {
     font-size: 15px;
 }
 
-.contact__btn{
-    border-color: #f9faf8;
-    
+.contact__btn {
+    border-color: #f9faf8; 
+}
+
+.contact__btn:hover {
+    background-color: #1f2937;
+    transition: all 300ms ease;
 }
 
 footer {
